@@ -51,7 +51,7 @@ module.exports = class SpotifyConnector {
     let client_secret = this.credentials.clientSecret;
     let options = {
       url: tokenRefreshEndpoint,
-      headers: { 'Authorization': 'Basic ' + (new Buffer(client_id + ':' + client_secret).toString('base64')) },
+      headers: { 'Authorization': 'Basic ' + (Buffer.from(client_id + ':' + client_secret).toString('base64')) },
       form: {
         grant_type: 'refresh_token',
         refresh_token: this.credentials.refreshToken
