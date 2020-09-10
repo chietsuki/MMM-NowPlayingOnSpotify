@@ -9,6 +9,9 @@ A module for the [MagicMirror](https://github.com/MichMich/MagicMirror) project 
 [![dependency status](https://david-dm.org/raywo/MMM-NowPlayingOnSpotify.svg)](https://david-dm.org/raywo/MMM-NowPlayingOnSpotify)
 [![chat on gitter](https://badges.gitter.im/raywo.svg)](https://gitter.im/raywo)
 
+## This Fork
+The [main project](https://github.com/raywo/MMM-NowPlayingOnSpotify) seems abandoned so I forked it to correct some bugs & add some features for myself.
+Feel free to fork this project or make pull requests.
 
 ## How it works
 After installing the module and configuring and setting up the Spotify app the module displays the song you are currently listening to on Spotify. It shows on which of your devices you’re playing the song. If you like you can also display the album cover.
